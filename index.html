@@ -1,297 +1,466 @@
-<! Doctype html>
+<!Doctype html>
 <html>
     <head>
+        <title>My coffee</title>
         <meta charset="utf-8">
-        <meta name="keywords" content="web designer; web developer; back-end developer; trainning">
-        <title>Home</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Nosifer" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet">
     </head>
     <body>
-        <nav id="top-header">
-            <ul>
-                <li>
-                    <a href="#">Hot Line (1900099, 8-12h hàng ngày)</a>
-                </li>
+           <!-- ************************************ Header ************************************ -->
+        <section id="header">
+            <div id="main_Menu">
+                <img src="img/logo-1.gif" id="logo" >
+                <h4>Coffee Shop</h4>
+                <img src="img/main_cup.png" id="hinh2">
+                <img src="img/imgworks7.jpg" id="hinh1">
+                <h1> My Coffee</h1>
+                <img src="img/landing-separator-1.png" id="hinh3">
+               <p>My coffee is made since 1995, with origin of coffee flavor from a long time <br>
+                  We have some quality products and best of services to provide for customer
+                </p> 
+              <div id="bar_Menu">   
+                <ul>
+                    <li>Trang Chủ</li>
+                     <li>Giới Thiêu</li>
+                     <li>Menu</li>
+                     <li>Cửa Hàng</li>
+                     <li>Giao Hàng</li>
+                     <li>Tin tức</li>
+                     <li>Tuyển dụng</li>
+                     <li>Liên Hệ</li>
+                </ul>
                 
-                <li class="dropdown-menu">
-                    <a href="#">
-                        <i class="fa fa-question-circle-o"></i>
-                        Hỏi đáp
-                        <i class="fa fa-caret-down"></i>
-                    </a>
-                    <ul class="dropdown-content dropdown-content-left">
-                        <li><a href="#">Hỏi đáp về chúng tôi</a></li>
-                        <li><a href="#">Hỏi đáp về sản phẩm</a></li>
-                        <li><a href="#">Hỏi đáp về dịch vụ</a></li>
-                    </ul>
-                </li>
+                <button type="button" id="Close_Menu">
+                   <i class="fa fa-times-circle"></i>
+                 </button>
                 
-                <li>
-                    <a href="#"><i class="fa fa-mobile"></i>Ứng dụng</a>
-                </li>
-                 <li>
-                    <a href="#"><i class="fa fa-bell-o"></i>Thông báo</a>
-                </li>
-                 <li>
-                    <a href="#"><i class="fa fa-question-circle-o"></i>Hỗ trợ</a>
-                </li>
+                <button type="button" id="Open_Menu">
+                    <i class="fa fa-bars"></i>
+                 </button>
+                </div>
+            </div>
+            
+            <div id="carsourel">
+                <img src="img/show6.png" id="likeshow1">
+                <img src="img/news-3.jpg" id="likeshow2">
+                <img src="img/show8.png" id="likeshow3">
+                <img src="img/show9.png" id="likeshow4">
+             </div>
+<!--             <embed with="0" height="0" src="Ban-Giao-Huong-Dinh-Menh-Beethoven.mp3" autostart="true" loop="true">-->
+        </section>
+         <!-- ************************************* Body ************************************** -->
+        <section id="body_main_content"> 
+           <div id="space">
+                <div id="goc">
+                 <h4>Góc<br> Không <br> Gian</h4>
+            </div>
+            <div id="left_col">
+                <img src="img/space1.png" id="s1">
+                <img src="img/space2.png" id="s2">
+            </div>
+            
+            <div id="right_col">
+                <img src="img/space3.png" id="s3">
+                <img src="img/space4.png" id="s4">
+            </div>
+            </div>
+            
+ 
+            <div id="product">
+                <div id="sp">
+                    <h2>Những Sản Phẩm Được Ưa Thích </h2>
+                </div>
                 
-                <li class="dropdown-menu">
-                    <a href="#"><i class="fa fa-user-plus"></i>Đăng Ký</a>
+                <div class="pro">
+                    <img src="img/tea.png">
+                    <div class="mask"><h3>Tea</h3></div>
+                </div>
+                
+                 <div class="pro">
+                    <img src="img/capuchino.png">
+                    <div class="mask"><h3>Capuchino</h3></div>
+                </div>
+                
+                 <div class="pro">
+                    <img src="img/Cookies.png">
+                    <div class="mask"><h3>Cookies</h3></div>
+                </div>
+                
+                <div class="pro">
+                    <img src="img/donut.png">
+                    <div class="mask"><h3>Donut</h3></div>
+                </div>
+                
+                 <div class="pro">
+                    <img src="img/nuoctraicay.jpg">
+                    <div class="mask"><h3>Fruit Juice</h3></div>
+                </div>
+                
+                <div class="pro">
+                    <img src="img/Late.png">
+                    <div class="mask"><h3>Late</h3></div>
+                </div>
+            </div>
+            
+   
+            <div id="branch">
+                
+                <div id="left_branch">
+                    <h3>Các chi nhánh cửa hàng</h3>
+                    <div class="cn">
+                        <img src="img/cn1.jpg" id="HCM">
+                        <h3>Cửa Hàng Tại TP.HCM</h3>
+                        <p>(Tất cả 10 cửa hàng)</p>
+                    </div>
                     
-                    <ul class="dropdown-content dropdown-content-right">
-                        <li>
-                            <form class="user-form">
-                                <h4>Đăng ký tài khoản mới</h4>
-                                <div class="user-input">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <input type="text" placeholder="Nhập email">
-                                </div>
-                                <div class="user-input">
-                                    <i class="fa fa-user"></i>
-                                    <input type="text" placeholder="Nhập tên đầy đủ">
-                                </div>
-                                <div class="user-input">
-                                    <i class="fa fa-key"></i>
-                                    <input type="text" placeholder="Nhập mật khẩu">
-                                </div>
-                                <button type="submit">Đăng ký tài khoản</button>
-                            </form>
-                        </li>
-                    </ul>
-                </li>
-                <li class="dropdown-menu">
-                    <a href="#"><i class="fa fa-user"></i>Đăng nhập</a>
-                    <ul class="dropdown-content dropdown-content-right">
-                        <li>
-                            <form class="user-form">
-                                <div class="external-login-google">
-                                    <span>
-                                        <i class="fa fa-google"></i>
-                                    </span>
-                                     Đăng nhập Google+
-                                </div>
-                                <div class="external-login-facebook">
-                                    <span>
-                                        <i class="fa fa-facebook"></i>
-                                    </span>
-                                        Đăng nhập với Facebook
-                                </div>
-                                <h4>Hoặc đăng nhập với email</h4>
-                                <div class="user-input">
-                                    <i class="fa fa-envelope-o"></i>
-                                    <input type="text" placeholder="Nhập email">
-                                </div>
-                                <div class="user-input">
-                                    <i class="fa fa-key"></i>
-                                    <input type="password" placeholder="Nhập mật khẩu">
-                                </div>
-                                <button type="submit">Đăng nhập</button>
-                            </form>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-        
-        
-        <nav id="main-header">
-          <div id="main-header-wrapper">
-              <div id="logo">
-                  <a href="/">
-                      <img src="img/supermarket_logo.jpg" />
-                  </a>
-              </div>
-              
-               <div id="search-tool">
-                  <div id="search-box">
-                      <span>
-                          <a href="#">Sản phẩm</a>
-                          <i class="fa fa-caret-down" aria-hidden="true"></i>
-                          
-                          <ul>
-                              <li id="a1">
-                                  <a href="/">Rao vặt</a>
-                              </li>
-                              <li>
-                                  <a href="/">Hỏi đáp</a>
-                              </li>
-                              <li>
-                                  <a href="/">Cửa hàng</a>
-                              </li>
-                          </ul>
-                    </span>
-                      <input type="text" >
-                      <button type="submit">Tìm kiếm</button>
-                  </div>
-              </div>
-              
-              <div id="cart-tool">
-                  <a href="/" id="a2">
-                      <div class="notify">
-                          2
-                      </div>
-                      <div class="img">
-                          <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          Yêu thích
-                      </div>
-                  </a>
-                  
-                  <a href="/" id="a3">
-                      <div class="notify">
-                          25
-                      </div>
-                      <div class="img">
-                          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                        Giỏ hàng
-                      </div>
-                  </a>
-              </div>
-              
-        </div>
-        </nav>
-        
-        <section id="main-body">
-            <div id="wrapper">
-                <ul id="left-menu">
-                    <li id="top-Menu">
-                        <a href="#"><i class="fa fa-star" aria-hidden="true"></i> Sản phẩm nổi bật</a>
-                    </li>
+                    <div class="cn">
+                        <img src="img/cn2.jpg" id="DN">
+                        <h3>Cửa Hàng Tại Đà Nẵng</h3>
+                        <p>(Tất cả 5 cửa hàng)</p>
+                    </div>
                     
-                    <li id="subMenu">
-                         <a href="#"><i class="fa fa-mobile" aria-hidden="true"></i> Điện thoại - viễn thông <i class="fa fa-caret-right" aria-hidden="true"></i></a>
-                        <div id="submenu-content">
-                            <ul id="d1">
-                                  <li>
-                                      <img src="img/phone_lenovo.png" >
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-android" aria-hidden="true"></i> Điện thoại Anroid</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-amazon" aria-hidden="true"></i> Điện thoại Amazon</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-apple" aria-hidden="true"></i> Điện thoại Apple</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Điện thoại Facebook</a>
-                                  </li>
-                              </ul>
-                              <ul id="d2">
-                                  <li>
-                                      <img src="img/phone_samsung.png" >
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-android" aria-hidden="true"></i> Điện thoại Anroid</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-amazon" aria-hidden="true"></i> Điện thoại Amazon</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-apple" aria-hidden="true"></i> Điện thoại Apple</a>
-                                  </li>
-                                  <li>
-                                      <a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> Điện thoại Facebook</a>
-                                  </li>
-                              </ul>
+                    <div class="cn">
+                        <img src="img/cn3.jpg" id="HN">
+                        <h3>Cửa Hàng Tại Hà Nội</h3>
+                        <p>(Tất cả 7 cửa hàng)</p>
+                    </div>
+                </div>
+                
+                <div id="right_details">
+                    <div id="TpHCM">
+                    <div id="TPHCM_left">
+                        <ul>
+                            <li>
+                                <img src="img/cn1_left.jpg">
+                                <h3>My Coffee</h3>
+                                <p>400A Huỳnh Tấn Phát</p>
+                                <p>Quận.7</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn2_left.jpg">
+                                <h3>My Coffee</h3>
+                                <p>39/5A Nguyễn Ảnh Thủ</p>
+                                <p>Quận.12</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn3-left.jpg">
+                                <h3>My Coffee</h3>
+                                <p>129 Trường Chinh</p>
+                                <p>Q.Tân Bình</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn4_left.jpg">
+                                <h3>My Coffee</h3>
+                                <p>450 Phan Văn Trị</p>
+                                <p>Q.Gò Vấp</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn5-left.jpg">
+                                <h3>My Coffee</h3>
+                                <p>1080 Hậu Giang</p>
+                                <p>Quận.6</p>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div id="TPHCM_right">
+                        <ul>
+                            <li>
+                                <img src="img/cn6-right.jpg">
+                                <h3>My Coffee</h3>
+                                <p>324 Ba Tháng Hai</p>
+                                <p>Quận.10</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn7-right.jpg">
+                                <h3>My Coffee</h3>
+                                <p>1024 CMT8</p>
+                                <p>Quận.3</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn8-right.jpg">
+                                <h3>My Coffee</h3>
+                                <p>210-213 Cao Thắng</p>
+                                <p>Quận.3</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn9-right.jpg">
+                                <h3>My Coffee</h3>
+                                <p>819 Lê Văn Sỹ</p>
+                                <p>Phường 1, Quận.Tân Bình</p>
+                            </li>
+                            <div id="clear"></div>
+                            <li>
+                                <img src="img/cn10-right.jpg">
+                                <h3>My Coffee</h3>
+                                <p>517 Lỹ Bán Bích</p>
+                                <p>Quận.Tân Phú</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                    
+                    <div id="Da-Nang">
+                        <div id="ĐN_left">
+                            <ul>
+                                <li>
+                                    <img src="img/%C4%90N1.jpg">
+                                <h3>My Coffee</h3>
+                                <p>316 Trần Phú</p>
+                                </li>
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/%C4%90N2.jpg">
+                                <h3>My Coffee</h3>
+                                <p>617 Lê Duẩn</p>
+                                </li>
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/DN5.jpg">
+                                <h3>My Coffee</h3>
+                                <p>411 Lý Thường Kiệt</p>
+                                </li>
+                        </ul>
                         </div>
-                    </li>
-                    
-                   <li>
-                          <a href="#"><i class="fa fa-laptop" aria-hidden="true"></i> Máy tính - linh kiện</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-television" aria-hidden="true"></i> Điện tử - điện máy</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-video-camera" aria-hidden="true"></i> Máy ảnh - máy quay</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-car" aria-hidden="true"></i> Ô tô - xe máy - xe đạp</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-diamond" aria-hidden="true"></i> Thời trang - phụ kiện</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-child" aria-hidden="true"></i> Mẹ và bé</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-building" aria-hidden="true"></i> Xây dựng - nội thất</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-book" aria-hidden="true"></i> Sách - quà tặng</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-bicycle" aria-hidden="true"></i> Xe đạp - phụ kiện</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-university" aria-hidden="true"></i> Ngân hàng - tài chính</a>
-                      </li>
-                      <li>
-                          <a href="#"><i class="fa fa-coffee" aria-hidden="true"></i> Thực phẩm - đồ uống</a>
-                      </li>
+                        
+                         <div id="ĐN_right">
+                            <ul>
+                                <li>
+                                    <img src="img/%C4%90N3.jpg">
+                                <h3>My Coffee</h3>
+                                <p>748 Hai Bà Trưng</p>
+                                </li>
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/%C4%90N4.jpg">
+                                <h3>My Coffee</h3>
+                                <p>512 Trương Công Định</p>
+                                </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div id="Ha-Noi">
+                        <div id="HN_left">
+                            <ul>
+                                <li>
+                                    <img src="img/HN1.jpg">
+                                <h3>My Coffee</h3>
+                                <p>453 Bùi Thị Xuân</p>
+                                <p>Quận Hai Bà Trưng</p>
+                                </li>
+                                
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/HN2.jpg">
+                                <h3>My Coffee</h3>
+                                <p>246 Kim Mã</p>
+                                <p>Quận Ba Đình</p>
+                                </li>
+                                
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/HN3.jpg">
+                                <h3>My Coffee</h3>
+                                <p>842 Hai Bà Trưng</p>
+                                <p>Quận Hoàn Kiếm</p>
+                                </li>
+                                
+<!--                                <div id="clear"></div>-->
+                                
+                        </ul>
+                        </div>
+                      
+                         <div id="HN_right">
+                            <ul>
+                                <li>
+                                    <img src="img/HN5.png">
+                                <h3>My Coffee</h3>
+                                <p>261 Tôn Thất Thuyết</p>
+                                <p>Quận Cầu Giấy</p>
+                                </li>
+                                
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/HN6.jpg">
+                                <h3>My Coffee</h3>
+                                <p>734 Nguyễn Thị Định</p>
+                                <p>Quận Cầu Giấy</p>
+                                </li>
+                                
+                                <div id="clear"></div>
+                                <li>
+                                    <img src="img/HN7.jpg">
+                                <h3>My Coffee</h3>
+                                <p>423 Hồ Tùng Mậu</p>
+                                <p>Quận Từ Liêm</p>
+                                </li>
+                                    <div id="clear"></div>
+                                <li>
+                                    <img src="img/HN4.jpg">
+                                <h3>My Coffee</h3>
+                                <p>341 Bà Triệu</p>
+                                <p>Quận Hoàn Kiếm</p>
+                                </li>
+                                
+                        </ul>
+                        </div>
+                        
+            </div>
+            </div>
+            </div>
+            
+            <div id="mess">
+              <img src="img/mess.png">
+            </div>
+        </section>
+        
+        
+        <!-- ************************************* Footer *************************************** -->
+        <div id="footer">
+            <div id="timework">
+                <h3>Openning Hours</h3>
+                <ul>
+                    <li>MONDAY ____________ Closed</li>
+                    <li>TUESDAY ________ 9:00 - 22:00</li>
+                    <li>WEDNESDAY _____ 9:00 - 22:00</li>
+                    <li>THURSDAY _______ 9:00 - 22:00</li>
+                    <li>FRIDAY ___________ 9:00 - 1:00</li>
+                    <li>SATURDAY ________12:00 - 1:00</li>
+                    <li>SUNDAY __________ 9:00 - 22:00</li>
                 </ul>
             </div>
             
-            
-            <div id="ads">
-                <img src="img/ad3.jpg" >
+            <div id="contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><h4>My Coffee Shop</h4></li>
+                    <li>223 Võ Văn Tần, Quận 3, HCM</li>
+                    <li>HotLine : 0996641465</li>
+                    <li>Giao Hàng Miễn Phí : 1800 6936</li>
+                    <li>Mail : vudaiphong95@gmail.com</li>
+                </ul>
             </div>
-        
-        </section>
-        
-         <section id="main-body-right-content">
-                  <div id="carsourel">
-                      <img src="img/carsourel_1.jpg" id="img1">
-                      <img src="img/carsourel_2.jpg" id="img2">
-                      <img src="img/carsourel_3.jpg" id="img3">
-                      <img src="img/carsourel_4.jpg" id="img4">
-                  </div>
             
-        </section>
+            <div id="follow">
+                <h3>Follow Us</h3>
+                <div id="face">
+                    <a href="#"><img src="img/face.jpg"></a>
+                </div>
+                
+                <div id="zalo">
+                    <a href="#"><img src="img/zalo.jpg"></a>
+                </div>
+                
+                <div id="youtube">
+                    <a href="#"><img src="img/youtube.jpg"></a>
+                </div>
+                
+                <div id="twitter">
+                    <a href="#"><img src="img/twitter.jpg"></a>
+                </div>
+                
+                <div id="instagram">
+                    <a href="#"><img src="img/instagram.jpg"></a>
+                </div>
+                
+                <div id="skype">
+                    <a href="#"><img src="img/skype.jpg"></a>
+                </div>
+            </div>
+        </div>
         
-        
-           <section class="main-panel">
-                <div class="panel-header">
-                    <div class="panel-title">
-                         Sản phẩm giảm giá
-                     </div>
-
-                        <ul>
-                            <li class="active">
-                                <i class="fa fa-mobile" aria-hidden="true"></i><br>
-                                <a href="#">Điện thoại</a>
-                            </li>
-                           <li>
-                               <i class="fa fa-laptop" aria-hidden="true"></i><br>
-                                <a href="#">Máy tính</a>
-                            </li>
-                            <li>
-                                <i class="fa fa-car" aria-hidden="true"></i><br>
-                                <a href="#">Ô tô - Xe máy</a>
-                            </li>
-                            <li>
-                                <i class="fa fa-child" aria-hidden="true"></i><br>
-                                <a href="#">Mẹ và bé</a>
-                            </li>
-                             <li>
-                               <i class="fa fa-building" aria-hidden="true"></i><br>
-                                <a href="#">Xây dựng</a>
-                            </li>
-                            <li>
-                               <i class="fa fa-television" aria-hidden="true"></i><br>
-                                <a href="#">Điện máy - TV</a>
-                            </li>
-                            <li>
-                              <i class="fa fa-coffee" aria-hidden="true"></i><br>
-                                <a href="#">Thực phẩm - đồ uống</a>
-                           </li>
+          <!-- *************************** JavaScript ***************************** -->
+         <script src="jquery-3.3.1.min.js"></script>
+        <script>
+            $(function() {
+                $('#Open_Menu').click(function (e) {
+                    e.preventDefault();
+                    $('#bar_Menu').animate({
+                        'right':'0'
+                    }, 400);
                     
-                          </ul>
-
-                      </div>
-        </section>
+                    $('#Open_Menu').animate({
+                        'opacity':'0'
+                    }, 400);
+                    
+                    $('#Close_Menu').animate({
+                        'opacity':'1'
+                    }, 400);
+                });
+                
+                $('#Close_Menu').click(function(){
+                    $('#bar_Menu').animate({
+                        'right':'-283px'
+                    }, 400);
+                    
+                    $('#Open_Menu').animate({
+                        'opacity':'1'
+                    }, 400);
+                    
+                    $('#Close_Menu').animate({
+                        'opacity':'0'
+                    }, 400);
+                });
+                
+                 $('#HCM').click(function(){
+                    $('#TpHCM').animate({
+                        'opacity':'1'
+                    }, 400);
+                     
+                    $('#Da-Nang').animate({
+                        'opacity':'0'
+                    }, 400);
+                     
+                    $('#Ha-Noi').animate({
+                        'opacity':'0'
+                    }, 400);
+                });
+                
+                $('#DN').click(function(){
+                    $('#Da-Nang').animate({
+                        'opacity':'1'
+                    }, 400);
+                     
+                    $('#TpHCM').animate({
+                        'opacity':'0'
+                    }, 400);
+                    
+                     $('#Ha-Noi').animate({
+                        'opacity':'0'
+                    }, 400);
+                });
+                
+                
+                $('#HN').click(function(){
+                    $('#Da-Nang').animate({
+                        'opacity':'0'
+                    }, 400);
+                     
+                    $('#TpHCM').animate({
+                        'opacity':'0'
+                    }, 400);
+                    
+                     $('#Ha-Noi').animate({
+                        'opacity':'1'
+                    }, 400);
+                });
+            });
+             
+        </script>
     </body>
 </html>
