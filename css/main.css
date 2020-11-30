@@ -171,6 +171,24 @@ html {
     z-index: 7;
 }
 
+/********************* Embedded form ******************/
+#backgroundId {
+    width: 30%;
+    height: 750px;
+    background-image: url("/img/bg_main_slider.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    margin-top: -150px;
+    overflow: hidden;
+}
+#form {
+    width: 100%;
+    height: 100%;
+    color: tomato;
+    font-family: "Taviraj", serif;
+}
+
 @keyframes likeshowImage {
     0% {
         opacity: 0;
@@ -330,16 +348,16 @@ html {
     height: 100px;
     position: relative;
     left: 0;
-    top: 0;
+    top: 100px;
 }
 
 #sp > h2 {
     color: #443b32;
     font-size: 50px;
-    font-family: "Permanent Marker", cursive;
+    font-family: "Yellowtail", cursive;
     position: absolute;
-    top: 30%;
-    left: 21%;
+    top: 0;
+    left: 30%;
 }
 
 .pro {
@@ -911,13 +929,4 @@ html {
     left: 0px;
 }
 
-/********************* Embedded form ******************/
-#form {
-    width: 30%;
-    height: auto;
-    line-height: 100px;
-    z-index: 999;
-    float: right;
-    margin-top: -100px;
-    margin-bottom: 200px;
-}
+
