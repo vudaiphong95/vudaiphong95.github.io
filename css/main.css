@@ -947,3 +947,13 @@
     top: 0;
     left: 0px;
 }
+
+
+/********************* Embedded form ******************/
+#form {
+    width: 100%;
+    height: 500px;
+    z-index: 999;
+    margin-top: -100px;
+     margin-bottom: 200px;
+}
